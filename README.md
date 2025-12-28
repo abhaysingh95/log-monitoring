@@ -8,12 +8,13 @@ to count success logs, error logs, and error types within a given time frame.
 ---
 
 ## Project Structure
+```
 log-monitoring/
 ├── generators/ # Scripts to generate service-wise logs
 ├── logs/ # Generated log files for each service
 ├── log-analyzer.py # Updated log analysis script
 └── start-all-logs.py # Script to start all log generators
-
+```
 
 ---
 
